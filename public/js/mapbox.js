@@ -1,12 +1,12 @@
 /* eslint-disable */
 export const displayMap = locations => {
   mapboxgl.accessToken =
-  'pk.eyJ1IjoiYW5pazQyMCIsImEiOiJja2VrYnZuYmYwMjJiMnJxeDdxdDFybGV0In0.LAZlnQy4hbtQaNbaoT0z5g';
+    'pk.eyJ1IjoiYW5pazQyMCIsImEiOiJja2VrYnZuYmYwMjJiMnJxeDdxdDFybGV0In0.LAZlnQy4hbtQaNbaoT0z5g';
 
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/anik420/ckelf91ng0xlg19qqm3zqhkdc',
-    scrollZoom: false
+    scrollZoom: true
     // center: [-118.113491, 34.111745],
     // zoom: 10,
     // interactive: false
